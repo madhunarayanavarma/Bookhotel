@@ -1,0 +1,127 @@
+.HeaderDiv img{
+    width: 60px;
+    height: 60px;
+}
+.FooterDiv .sm{
+    height: 20px;
+    width: 22px;
+    float: right;
+    display: grid;
+    padding: 0.5%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color:  #e0e0e0;
+    font-family:  'Ubuntu', sans-serif;
+}
+.maindiv{
+    width: 100%;
+    height: 100%;
+}
+.ContentDiv img{
+    height: 500px;
+    width: 500px;
+    margin-top: 2%;
+}
+header{
+    background-color: rosybrown;
+}
+footer{
+    background-color: rosybrown;
+}
+.ContentDiv{
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 1%;
+
+}
+/* .imgcl{
+    margin: 2% 4% 0% 2%;
+} */
+/* footer span{
+    margin-left: 45%;
+} */
+.cont{
+    text-decoration: none;
+    color: black;
+}
+.FooterDiv .smi{
+    padding: 1%;
+}
+.log{
+    float: right;
+    margin: 2%;
+    text-decoration: none;
+    color: black;
+}
+.top, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .top{
+    width: 100%;
+  }
+  .inner td{
+    border: 0px;
+    padding: 30px;
+  }
+  /* .inner .bk input{
+    margin-left: 50%;
+  } */
+  .top .te{
+    text-align: center;
+    width: 65%;
+  }
+  .FooterDiv .smi{
+    padding: 1%;
+}
+.sp1{
+    margin-left: 20px;
+}
+.ma{
+    margin-left: 20px;;
+}
+footer{
+    display: flex;
+    column-gap: 30%;
+}
+#f2{
+    width: 100px;
+}
+/* #f3{
+    width: 500px;
+} */
+.log{
+    float: right;
+    
+    
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#loginfront{
+    background-color: #e0e0e0;
+    border: 0px;
+}
+#contbut{
+    background-color: rgb(44, 139, 119);
+    border: 0px;
+}
+.blu img{
+    height: 171px;
+}
+.bk input:hover{
+    background-color: rgb(75, 233, 75);
+    /* border: 1px solid rgb(75, 233, 75); ; */
+    color: white;
+
+}
+.bk input{
+    border: 1px solid rgb(75, 233, 75); 
+    color: rgb(75, 233, 75);
+}
+.te{
+    width: 100px;
+    height: 300px;
+}

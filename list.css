@@ -1,0 +1,143 @@
+.HeaderDiv img{
+    width: 60px;
+    height: 60px;
+}
+.FooterDiv .sm{
+    height: 20px;
+    width: 22px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color:  #e0e0e0;
+    font-family:  'Ubuntu', sans-serif;
+}
+.maindiv{
+    width: 100%;
+    height: 100%;
+}
+.m{
+    width: 150px;
+    height: 150px;
+}
+header{
+    background-color: rosybrown;
+}
+footer{
+    background-color: rosybrown;
+}
+.one{
+    margin: 8%;
+    background-color: lightgray;
+    /* margin-right: 5%; */
+    /* width: 40%; */
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto auto; */
+}
+.try{
+    width: 40%;
+}
+.HeaderDiv .login{
+    float: right;
+    padding: 1.5%;
+    text-decoration: none;
+    color: black;
+}
+.FooterDiv .sm{
+    height: 20px;
+    width: 22px;
+    float: right;
+    display: grid;
+    padding: 0.5%;
+    /* flex-direction: row-reverse; */
+    
+}
+.listview{
+    margin-left: 40%;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.mapview{
+    margin-left: 1.5%;
+    text-decoration: none;
+    color: black;
+}
+/* #o{
+    width: 40%;
+} */
+#images{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.blu{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+.one:hover{
+    background-color: rosybrown;
+}
+.blu a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+.blu h3 span{
+    margin-left: 20px;
+}
+.blu img{
+    float: left;
+    
+}
+
+/* #map{
+    display: none;
+} */
+/* footer span{
+    margin-left: 45%;
+} */
+.cont{
+    text-decoration: none;
+    color: black;
+}
+.FooterDiv .smi{
+    padding: 1%;
+}
+.sp1{
+    margin-left: 20px;
+}
+.ma{
+    margin-left: 20px;;
+}
+footer{
+    display: flex;
+    column-gap: 30%;
+}
+#f2{
+    width: 100px;
+}
+.log{
+    float: right;
+    
+    
+    margin-top: 10px;
+    margin-right: 10px;
+}
+#loginfront{
+    background-color: #e0e0e0;
+    border: 0px;
+}
+#contbut{
+    background-color: rgb(44, 139, 119);
+    border: 0px;
+}
+.blu img{
+    height: 171px;
+}
+.yellow-color {
+    color:yellow;
+    }
