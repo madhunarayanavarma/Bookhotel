@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="styles/detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>    
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="maindiv">
+        <div class="HeaderDiv">
+            <header>
+            <a href="index.html"><img src="assests/images/logo.png" alt="logo"></a>
+            
+            
+            <!-- Button trigger modal -->
+            <div class="log">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" id="loginfront">
+                    Login
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Please Login</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <table>
+                            <form action="index.html" method="get">
+                                <tr><td>
+                                <label for="Username" class="lgp">Username:</label></td>
+                                <td><input type="text" placeholder="Enter Username" name="Username" id="Username" required/></td>
+                            </tr>
+                            <tr>
+                                <td><label for="password" class="lgp">Password:</label></td>
+                               <td> <input type="password" placeholder="Enter Password" name="password" id="password" required/>
+                            </td>
+                                <!-- <a href=""><input type="submit" value="Login"></a> -->
+                                
+                                
+                                
+                                
+                                
+                        
+                        
+                        
+                        
+                            
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Login</button> -->
+                          <input type="submit" value="Login" class="btn btn-primary" id="loginbutton">
+                        </form>
+                    
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <!-- end of bootstrap login button -->
+        </header>
+        </div>
+
+    
+
+
+
+        <div class="ContentDiv">
+            <table class="top">
+                <tr>
+                    <td class="te">
+                        <!-- boot strap corosel start -->
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="https://media-cdn.tripadvisor.com/media/photo-o/01/fa/51/70/r-the-spa.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="https://media-cdn.tripadvisor.com/media/photo-w/0e/b2/64/3f/radisson-blu-plaza-delhi.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                          <!-- boot dtrap corosel end -->
+            <!-- <a href="detail.html"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="Radisson Blu Hotel" class="imgcl"> -->
+            </a><br></td>
+
+            <td>
+            <table class="inner" style="border: 0px;">
+                <form action="payment.html">
+                    
+                    
+                    <tr><td><label for="a">Adults:</label></td>
+                    <td><input type="number" min="1" name="a" id="a"><br></td></tr>
+                    <tr><td><label for="b">Name:</label></td>
+                    <td><input type="text" name="b" id="b" required><br></td></tr>
+                    <tr><td><label for="c">From Date:</label></td>
+                    <td><input type="date" name="c" id="c" required><br></td></tr>
+                    <tr><td><label for="d">To Date:</label></td>
+                    <td><input type="date" name="d" id="d" required><br></td></tr>
+                    <tr><td><label for="readonly">Total:</label></td>
+                    <td><input type="text" name="readonly" readonly></td></tr>
+                    <tr><td></td>
+                        <td class="bk"><input type="submit" value="Book Now"></td></tr>
+
+
+
+                </form>
+            
+            </table>
+        </td>
+    </tr>
+        </table>
+                
+                <h3>Radisson Blu Hotel</h3>
+                <span><p style="font-weight: bold;">Rating</p></span>
+                <span><p>⭐⭐⭐⭐⭐</p></span>
+                <p style="font-weight: bold;">AMENITIES</p>
+               <ul>
+                <li>Room Service</li>
+                <li>Restaurant</li>
+                <li>Bussiness Center</li>
+                <li>Fitness center</li>
+                <li>Pool</li>
+
+
+               </ul>
+               <span><p style="font-weight: bold;">DESCRIPTION</p></span>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint ullam dolorum officia doloremque eius. Sunt, ex! Dolorum similique voluptatibus 
+                magni sit facilis eius dolorem quis, laborum aspernatur, debitis, omnis vitae?</p>
+
+
+
+        </div>
+
+
+
+
+        <div class="FooterDiv">
+            <footer>
+                <div class="smi" id="f1">
+               <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="contbut">
+    Contact Us
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Get in touch</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <p>Thankyou for reaching out!!!</p><br>
+            <p>Please enter your email we will get back to you</p>
+            <form action="index.html">
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Enter your email" name="email" id="email" required><br>
+                
+            
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Submit</button> -->
+          <input type="submit" class="btn btn-primary" >
+          <!-- <button type="button" class="btn btn-primary">Submit</button> -->
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- end of contact us boot strap --></div>
+               <div id="f3" class="smi">
+                <span>© 2020 ROOM SEARCH PVT LTD</span>
+            </div>
+
+               <div class="smi" id="f2">
+                <a href="https://www.facebook.com/"><img src="assests/images/facebook.png" alt="facebookimage" class="sm"></a>
+                <a href="https://twitter.com/"><img src="assests/images/instagram.png" alt="instaimage" class="sm"></a>
+                <a href="https://www.instagram.com"><img src="assests/images/twitter.png" alt="twitterimage" class="sm"></a>
+            </div>
+            
+
+            </footer>
+        </div>
+    </div>
+  </body>
+</html>
